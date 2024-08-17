@@ -1,0 +1,28 @@
+First check  the width before css
+
+*****must use custom font
+
+photoshop
+By Grid = ctrl + ; for measure the width
+
+View>>> Rulers >>> Ctrl + R 
+>>> Select Pixel
+===========================
+/* #header>nav #menu li.active a{
+    color: #41C84E;
+    border-bottom: 5px solid #41C84E;
+} */
+
+=====================
+###Font 
+<link href="font/font.css" rel="stylesheet">
+<style> 
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+* {
+   font-family: myFirstFont;
+}
+</style>
